@@ -1,4 +1,4 @@
-🚀 Proyectos prácticos en Python
+💡 Proyectos prácticos en Python
 
 ¡Bienvenido! Este repositorio es una colección de proyectos en Python diseñados para ser claros, funcionales y, sobre todo, útiles.
 Si estás buscando perfeccionar tus habilidades, encontrar inspiración para tu próxima gran idea, o simplemente necesitas una base sólida desde donde empezar, ¡estás en el lugar correcto!
