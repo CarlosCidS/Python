@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.login-container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 24px;
+    color: #4e54c8;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e54c8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #3b41a1;
+}
+
+body {
+    background-color: red;
+}
+
+.header-title {
+    /* Mover el título más arriba */
+    margin-bottom: 20px; /* Puedes ajustar este valor */
+    /* Darle un poco de estilo */
+    color: white; /* Color del texto para contrastar con el fondo */
+    font-size: 2.5em; /* Aumentar el tamaño de la fuente */
+    font-weight: 700; /* Hacer la fuente más audaz */
+    text-shadow: 2px 2px 20px rgba(186, 38, 219, 0.966); /* Agregar una sombra de texto */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+

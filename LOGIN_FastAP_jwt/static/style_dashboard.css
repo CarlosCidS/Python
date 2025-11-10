@@ -1,0 +1,91 @@
+
+/* --- Estilos Generales y Fondo --- */
+body {
+    background-color: #1a1a2e; 
+    background-image: linear-gradient(135deg, #1a1a2e 0%, #0f0f1c 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e4e4e4; 
+    
+    margin: 0;
+    padding: 0; 
+    
+    min-height: 100vh;
+    box-sizing: border-box;
+
+    /* REAPLICAR FLEXBOX, como en el index.html, para centrar los ítems */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-top: 80px; 
+}
+
+/* --- Título del Dashboard (Dashboard) --- */
+h1 {
+    font-size: 3.5em;
+    font-weight: 800;
+    color: #ff99c4; 
+    text-shadow: 0 0 10px rgba(255, 153, 196, 0.5); 
+    
+    /* Centra el texto del título */
+    text-align: center; 
+    
+    /* Quita los anchos limitados que estaban causando problemas */
+    width: auto; 
+    max-width: none; 
+
+    margin-top: 40px;
+    margin-bottom: 30px; 
+    
+    padding-bottom: 5px;
+    /* Ajusta el borde para que sea más estrecho, alineado al texto */
+    border-bottom: 2px solid #3c3b53; 
+    letter-spacing: 1px;
+} 
+/* El siguiente CSS usa la pseudo-clase ::after para que la línea se limite al ancho del texto */
+h1::after {
+    content: '';
+    display: block;
+    width: 100%; /* Ajusta esto si quieres una línea más corta */
+    border-bottom: 2px solid #3c3b53;
+}
+
+
+/* --- Contenedor del Formulario de Logout --- */
+form {
+    display: block; 
+    margin-top: 40px; 
+    
+    /* Quita los anchos limitados que causaban problemas */
+    width: auto; 
+    max-width: none;
+    text-align: center; 
+}
+
+/* --- Botón de Logout (mismos estilos) --- */
+input[type="submit"] {
+    background-color: #5d5d81; 
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px; 
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto al pasar el ratón (Hover) */
+input[type="submit"]:hover {
+    background-color: #ff99c4; 
+    color: #1a1a2e; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 15px rgba(255, 153, 196, 0.5); 
+}
+
+/* Efecto al hacer click (Active) */
+input[type="submit"]:active {
+    transform: translateY(0); 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
