@@ -19,6 +19,8 @@ Actualmente, la colección incluye:
 
 📦 Sistema de Stock: Una aplicación funcional para gestionar un inventario básico.
 
+🛡️ Gestión de Sesiones con FastAPI y Autenticación JWT. 
+
 (¡Y más proyectos en camino!)
 ¡Úsalo como quieras!
 Todo el código aquí es 100% gratuito. Siéntete libre de clonarlo, "forkearlo", copiarlo, mejorarlo o adaptarlo a tus necesidades. ¡No hay reglas!
